@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+.heading{
+    text-align: center;
+    background-color: #202020;
+    color: white;
+    font-style: normal;
+    text-transform: capitalize;
+    font-size: 0.75rem;
+    padding: 0.5rem;
+}
+
+.spacediv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #f8f8f8;
+    padding: 1.5rem 3rem;
+
+}
+
+h4{
+
+    font-size: 1.5rem;
+    text-transform: capitalize;
+
+}
+
+
+ul a{
+
+    margin-right: 2rem;
+
+}
+
+
+
+
+a{
+    font-size: 1rem;
+    color: #202020;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-weight: bold;
+    
+}
+
+.backimage{
+    position: relative;
+    background: #1d3c6f;
+    height: 80vh;
+    padding: 15vh 2rem 2rem 5rem;
+    color: #ffffff;
+}
+
+.backimage img{
+
+    position: absolute;
+    width: 400px;
+    right: 100px;
+    top: 100px;
+    border-radius: 30px;
+
+}
+
+.h2head{
+    font-size: 2.5rem;
+ }
+
+ .h1head{
+    
+    font-size: 2rem;
+    margin-top: 6rem;
+ }
+
+ form{
+
+    color: white;
+    width: fit-content;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    text-transform: none;
+    text-decoration: none;
+    margin-top: 1rem;
+
+ }   
+
+
+
+.footer
+    {
+        padding: 20px;
+        text-align: center;
+        background-color:#26272b;
+    }
+    .footer a{
+        /* font-size: larger; */
+        margin: 50px;
+        display: inline-block;
+        color: white;
+        text-decoration: none;
+        transition: 1s;
+        padding: 5px;
+        border-radius: 10px;
+    }
+
+    .footer a:hover{
+        color: black;
+        background-color: white;
+    }
+
+.text-center{
+    text-align: center;
+}
+
+
+
+.about{
+    margin: 50px 100px 100px 50px;
+    padding: 50px;
+    text-align: center;
+}
+
+.about h2{
+    font-size: 3rem;
+}
+
+.about p{
+    font-size: 1rem;
+}
+
+
+
+/* for contack form */
